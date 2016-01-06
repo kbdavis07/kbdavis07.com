@@ -1,15 +1,11 @@
-﻿body 
-{
-    border:1px solid #212121;
-}
-
-header 
+﻿header 
 {
     /* ToDo: Need to make this more responsive*/
     /*background-color: rgba(220, 224, 243, 0.91);*/
     height: 136px;
     
     background-color:#D1D7E6;
+    font-family:Segoe UI; 
 }
 
 #code
@@ -26,11 +22,13 @@ header
     background-color:#1a293d;
 }
 
-.navbar .navbar-nav > li > a
+.navbar-nav > li > a
 {
     background-color:#35445c;
     margin-left:5px;
     color:#EAEFF0;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
 

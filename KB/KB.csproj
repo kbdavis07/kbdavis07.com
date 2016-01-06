@@ -191,20 +191,25 @@
     </Content>
     <Content Include="Content\css\header.css" />
     <Content Include="Content\css\Grid-Layout.css" />
+    <Content Include="Content\css\Theme.css" />
     <Content Include="Content\img\Code.PNG" />
+    <Content Include="Content\img\footer.png" />
     <Content Include="Content\img\gitter.ico" />
     <Content Include="Content\img\gitter.png" />
     <Content Include="Content\img\link-hover.PNG" />
+    <Content Include="Content\img\main.png" />
     <Content Include="Content\img\VisualStudio-Resized.png" />
     <Content Include="Content\img\VisualStudio.png" />
     <Content Include="Content\img\VS-1.PNG" />
     <Content Include="Content\img\VS-2.png" />
     <Content Include="Content\img\VS-3.png" />
+    <Content Include="Content\img\Widget.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\Site.css" />
     <Content Include="HTML\Header.html" />
+    <Content Include="HTML\Theme.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\css\Grid.less" />

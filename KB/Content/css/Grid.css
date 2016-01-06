@@ -1,4 +1,5 @@
-﻿.container {
+﻿/*CSS to Add BootStrap Grid to Elements on Page without requiring it to be on the actual page. */
+.container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -120,7 +121,7 @@ main {
 @media (min-width: 970px) {
   main {
     float: left;
-    width: 66.66666667%;
+    width: 83.33333333%;
   }
 }
 footer:before,

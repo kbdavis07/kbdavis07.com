@@ -1,0 +1,80 @@
+﻿
+html
+{
+     background-color:#27344C;
+}
+
+
+body 
+{
+    padding-top: 185px;
+    border:1px solid #092E46;
+   
+    
+}
+
+.navbar 
+{
+    min-height: 20px;
+} 
+
+
+
+
+#page-content
+{
+   
+}
+
+main
+{
+    background-color:#FFFFFF;
+    border:2px solid #8593B4;
+    margin-left:20px;
+    margin-bottom:5px; 
+}
+
+
+#sidebar-2
+{
+    display:block;
+    width:200px;
+    height:600px;
+    font-family:Segoe UI;
+}
+
+
+#sidebar-2 .widget 
+{
+    display:block;
+    position:relative;
+    width:150px;
+    height:300px;
+    padding:1px;
+    margin-top:5px;
+    background-color:#FFFFFF; 
+    border:2px solid #8593B4;
+
+    
+
+    
+}
+
+#sidebar-2 .widget > header
+{
+    height:25px;
+    width:146px;
+    color:black;
+    font-size:medium;
+    margin-top:-1px; 
+    margin-left:-1px;
+    border:2px solid #FDF099; 
+    background-color:#FDF099;
+
+}
+
+
+footer
+{
+    background-color:#1673C3;
+}
