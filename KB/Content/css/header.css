@@ -3,8 +3,6 @@
     /* ToDo: Need to make this more responsive*/
     /*background-color: rgba(220, 224, 243, 0.91);*/
 
-    :bangbang:
-
     height: 136px;
     
     background-color:#D1D7E6;
@@ -22,23 +20,31 @@
 
 .navbar
 {
-    background-color:#1a293d;
+    min-height: 32px;
+    background-color:#273c5a;
+
+    border:1px solid #273c5a;
+
 }
+
+
+
 
 .navbar-nav > li > a
 {
-    background-color:#35445c;
-    margin-left:5px;
+    background-color:#313e53;
+    width:70px;
+    text-align:center;
     color:#EAEFF0;
-    padding-top:5px;
-    padding-bottom:5px;
+    padding-top:4px;
+    padding-bottom:4px;
 }
 
 
 .navbar .navbar-nav > li > a:link
 {
-    background-color:#35445c;
-    margin-left:5px;
+    background-color:#3f4f6b;
+    margin-left:4px;
     color:#EAEFF0;
 }
 
@@ -49,7 +55,8 @@
 
 .navbar .navbar-nav > li > a:hover
 {
-   background-color:rgba(253, 240, 153, 0.70);
+   background-color:rgb(212, 201, 120);
+   color:black;
 }
 
 .navbar .navbar-nav > li > a:active
