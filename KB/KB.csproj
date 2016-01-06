@@ -172,23 +172,36 @@
     <Compile Include="App_Start\Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DefaultConnection.mdf" />
+    <Content Include="App_Data\DefaultConnection_log.ldf">
+      <DependentUpon>DefaultConnection.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\kb.mdf" />
+    <Content Include="App_Data\kb_log.ldf">
+      <DependentUpon>kb.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\Elegant.css" />
     <Content Include="Content\css\header.css" />
+    <Content Include="Content\css\Layout.css" />
     <Content Include="Content\img\Code.PNG" />
     <Content Include="Content\img\gitter.ico" />
     <Content Include="Content\img\gitter.png" />
     <Content Include="Content\img\link-hover.PNG" />
     <Content Include="Content\img\VisualStudio-Resized.png" />
     <Content Include="Content\img\VisualStudio.png" />
+    <Content Include="Content\img\VS-1.PNG" />
+    <Content Include="Content\img\VS-2.png" />
+    <Content Include="Content\img\VS-3.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\Site.css" />
-    <Content Include="Header.html" />
+    <Content Include="HTML\Header.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\css\Grid.less" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -202,7 +215,8 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\resume.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Elegant-Index.html" />
+    <Content Include="HTML\Elegant-Index.html" />
+    <Content Include="HTML\LayOut.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -239,15 +253,13 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
+    <None Include="HTML\Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

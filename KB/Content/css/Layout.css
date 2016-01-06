@@ -1,0 +1,43 @@
+﻿
+/*Design Tools*/
+
+/*article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary
+{
+    background-color:rgba(234, 232, 238, 0.40);
+    border:1px dashed black;
+    margin:0.1%;
+     
+}*/
+
+
+.show-grid [class^="col-"] 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(86, 61, 124, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.show-border
+{
+     border:1px solid black;
+}
+
+/*************************************************************************************/
+
+body 
+{
+  
+}
+
+header
+{
+    .make-row();
+}
+
+
+
+#page-content
+{
+    /*height:600px;*/
+}

@@ -6,16 +6,19 @@
 header 
 {
     /* ToDo: Need to make this more responsive*/
-    background-color: rgba(220, 224, 243, 0.91);
+    /*background-color: rgba(220, 224, 243, 0.91);*/
     height: 136px;
     
+    background-color:#D1D7E6;
 }
 
 #code
 {
-    height:100px;
-    background-image: url('../img/Code.PNG');
+    margin:1px;
+    height:130px;
+    background-image: url('../img/VS-3.png');
     background-repeat:no-repeat;
+    
 }
 
 .navbar
@@ -63,6 +66,7 @@ header
 .profile-pic
 {
     margin-top:7px;
+    margin-left:20px;
 
     filter: drop-shadow(16px 16px 20px black);
     
@@ -70,7 +74,7 @@ header
 
 #Pic
 {
-    background-color: rgba(220, 224, 243, 0.91);
+    /*background-color: rgba(220, 224, 243, 0.91);*/
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
     animation-name: example;
@@ -118,3 +122,11 @@ header
 0% { transform: rotate(0deg);}
 100% { transform: rotate(360deg);}
 }
+
+
+
+
+
+
+
+

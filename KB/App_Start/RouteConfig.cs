@@ -12,13 +12,9 @@ namespace KB
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-            routes.IgnoreRoute("{file}.html");
+            //routes.IgnoreRoute("{file}.html");
 
-            routes.MapRoute(
-               name: "ActionOnly",
-               url: "{action}/{id}",
-               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-           );
+            routes.MapRoute("OnlyAction","{action}", new { controller = "Home", action = "Index" });
 
             routes.MapRoute(
                 name: "Default",
