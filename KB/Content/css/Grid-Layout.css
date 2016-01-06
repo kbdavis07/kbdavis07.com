@@ -1,5 +1,6 @@
 ﻿
-/*Design Tools*/
+/*CSS to show Grid Lines and Layout a Design Tool*/
+
 
 /*article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary
 {
@@ -10,7 +11,7 @@
 }*/
 
 
-.show-grid [class^="col-"] 
+.show-grid
 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -23,21 +24,7 @@
      border:1px solid black;
 }
 
-/*************************************************************************************/
-
-body 
-{
-  
-}
-
-header
-{
-    .make-row();
-}
-
-
-
 #page-content
 {
-    /*height:600px;*/
+   background-color:rgba(128, 128, 128, 0.32); 
 }

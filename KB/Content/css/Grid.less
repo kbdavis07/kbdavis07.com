@@ -1,4 +1,8 @@
 ﻿
+//Todo: Update BootStrap this mixin is outdated.
+
+
+
 @grid-columns:              12;
 @grid-gutter-width:         30px;
 @grid-float-breakpoint:     768px;
@@ -222,4 +226,61 @@
   @media (min-width: @screen-lg-min) {
     right: percentage((@columns / @grid-columns));
   }
+}
+
+
+//Row with equal height columns
+//Credit: http://acmetech.github.io/todc-bootstrap-3/examples/equal-height-columns/
+ 
+.make-row-eq-height 
+{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+
+
+header
+{
+    .make-row();
+}
+
+nav
+{
+  .make-md-column(12);
+}
+
+#page-content
+{
+    .make-row();
+    .make-row-eq-height(); 
+}
+
+#sidebar-1
+{
+   .make-md-column(2);
+}
+
+#sidebar-2
+{
+   .make-md-column(2);
+}
+
+
+main
+{
+    .make-md-column(8);
+}
+
+footer
+{
+     .make-row();
+}
+
+footer > p
+{
+    .make-md-column(12);
 }
