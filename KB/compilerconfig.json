@@ -2,5 +2,9 @@
   {
     "outputFile": "Content/css/Grid.css",
     "inputFile": "Content/css/Grid.less"
+  },
+  {
+    "outputFile": "Content/css/bootstrap.css",
+    "inputFile": "Content/bootstrap/bootstrap.less"
   }
 ]

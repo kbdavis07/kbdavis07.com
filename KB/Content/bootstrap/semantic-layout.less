@@ -1,0 +1,58 @@
+﻿
+/*CSS to Add BootStrap Grid to Elements on Page without requiring it to be on the actual page. */
+//Adding Bootstrap Styles to Elements on Page.
+
+//Row with equal height columns
+//Credit: http://acmetech.github.io/todc-bootstrap-3/examples/equal-height-columns/
+ 
+.make-row-eq-height 
+{
+  display: -webkit-box;
+  /*display: -webkit-flex;*/
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+
+header
+{
+    .make-row();
+}
+
+nav
+{
+  .make-md-column(12);
+}
+
+#page-content
+{
+    .make-row();
+    .make-row-eq-height(); 
+}
+
+#sidebar-1
+{
+   .make-md-column(2);
+}
+
+#sidebar-2
+{
+   .make-md-column(2);
+}
+
+
+main
+{
+    .make-md-column(10);
+}
+
+footer
+{
+     .make-row();
+}
+
+footer > p
+{
+    .make-md-column(12);
+}
