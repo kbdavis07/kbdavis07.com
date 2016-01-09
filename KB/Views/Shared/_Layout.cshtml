@@ -1,44 +1,76 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+<html lang="en">
 
-</head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+
+@Html.Partial("../Partials/_Head")
+
+<body class="container-fluid">
+
+
+    @Html.Partial("../Partials/_Header")
+   
+
+    <div id="page-content">
+
+
+        <main role="main">
+
+            <article>
+
+                @RenderBody()
+
+
+            </article>
+
+
+        </main>
+
+        <aside id="sidebar-2">
+
+            @Html.Partial("../Widgets/_Widget1")
+            
+
+            @RenderSection("sidebar2", required: false)
+
+
+
+        </aside>
+
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+
+
+    <footer>
+
+        <p>
+            © Copyright @DateTime.Now.Year, <a href="http://Kbdavis07.Com" title="Brian Keith Davis (Kbdavis07.Com)">Brian Keith Davis</a>.
+            Website Developed & Design by <a href="http://twitter.com/kbdavis07" title="Brian Keith Davis (Kbdavis07)"> kbdavis07 </a>
+        </p>
+        <div id="ViewPort">Width:<span id="width"></span> Height:<span id="height"> </span> </div>
+
+
+    </footer>
+    <!-- Start Scripts------------------------------------------------------------------------------------------->
+
+    @*@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")*@
     @RenderSection("scripts", required: false)
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="../Scripts/app.js"></script>
+
+
+
+
+
+
+    <!-- End of Scripts------------------------------------------------------------------------------------------->
+
 </body>
 </html>
