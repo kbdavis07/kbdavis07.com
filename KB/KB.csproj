@@ -202,6 +202,7 @@
     <Content Include="Content\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
+    <Content Include="Content\css\Computer.css" />
     <Content Include="Content\css\Elegant.css" />
     <Content Include="Content\css\Grid.css">
       <DependentUpon>Grid.less</DependentUpon>
@@ -275,6 +276,7 @@
     <Content Include="HTML\2-col.html" />
     <Content Include="HTML\Grid.html" />
     <Content Include="HTML\Header.html" />
+    <Content Include="HTML\Header\Computer.html" />
     <Content Include="HTML\Theme.html" />
     <Content Include="HTML\ViewPortSize.html" />
     <Content Include="Scripts\app.js" />
@@ -440,6 +442,7 @@
     <Content Include="packages.config" />
     <None Include="HTML\Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
