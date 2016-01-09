@@ -7,9 +7,10 @@
     <title>Layout</title>
 
     <!-- Bootstrap -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../Content/css/Grid.css" rel="stylesheet" />
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Content/css/Grid-Layout.css" rel="stylesheet" />
     <link href="../Content/css/Layout.css" rel="stylesheet" />
+    <link href="../Content/css/items.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,13 +22,15 @@
 <body class="container-fluid show-border">
     
     
-<header class="show-grid">
+    <header class="show-grid">
 
-    Page Header
+        <div id="item1">Page Header </div>
 
-    <nav class="show-grid">Main Nav</nav>
+        <nav class="show-grid">
+            <div id="item2">Main Nav </div>
+        </nav>
 
-</header>
+    </header>
     
 
    
@@ -55,11 +58,12 @@
 
     <main role="main" class="show-grid">
 
-        Main Content
-    
-        <!--<article>Article in Main</article>-->
+        <div id="item1">  Main Content</div>
+           
 
-    </main>
+            <!--<article>Article in Main</article>-->
+
+</main>
  
     <aside id="sidebar-2" class="show-grid"> 
     Aside Sidebar 2

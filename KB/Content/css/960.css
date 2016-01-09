@@ -1,0 +1,9 @@
+﻿
+/*Makes a Grid
+Credit:http://stackoverflow.com/questions/3540194/how-to-make-a-grid-like-graph-paper-grid-with-just-css*/
+
+#paper-grid {
+    background-size: 10px 20.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.47) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.47) 1px, transparent 1px);
+}
+

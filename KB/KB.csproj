@@ -197,6 +197,7 @@
     <Content Include="Content\bootstrap\Grid.min.css">
       <DependentUpon>Grid.css</DependentUpon>
     </Content>
+    <Content Include="Content\css\960.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
@@ -210,6 +211,7 @@
     </Content>
     <Content Include="Content\css\header.css" />
     <Content Include="Content\css\Grid-Layout.css" />
+    <Content Include="Content\css\items.css" />
     <Content Include="Content\css\Theme.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\Code.PNG" />
@@ -263,11 +265,15 @@
     <Content Include="Content\img\VS-1.PNG" />
     <Content Include="Content\img\VS-2.png" />
     <Content Include="Content\img\VS-3.png" />
+    <Content Include="Content\img\VS-4.png" />
+    <Content Include="Content\img\vs-head.PNG" />
     <Content Include="Content\img\Widget.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\Site.css" />
+    <Content Include="HTML\2-col.html" />
+    <Content Include="HTML\Grid.html" />
     <Content Include="HTML\Header.html" />
     <Content Include="HTML\Theme.html" />
     <Content Include="HTML\ViewPortSize.html" />

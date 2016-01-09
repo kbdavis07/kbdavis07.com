@@ -10,6 +10,18 @@
      
 }*/
 
+/*Row with equal height columns
+Credit: http://acmetech.github.io/todc-bootstrap-3/examples/equal-height-columns/*/
+ 
+.make-row-eq-height 
+{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
 
 .show-grid
 {
@@ -27,4 +39,10 @@
 #page-content
 {
    background-color:rgba(128, 128, 128, 0.32); 
+}
+
+
+header 
+{
+    
 }

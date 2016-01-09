@@ -1,0 +1,82 @@
+﻿
+
+/*Used to put items on a Page for design*/
+
+
+#item1
+{
+    display:block;
+    width:100px;
+    height:100px;
+    border:1px dashed black;
+    background-color:aqua
+}
+
+
+
+#item2
+{
+    display:block;
+    width:700px;
+    height:100px;
+    border:1px dashed black;
+    background-color:#ff0000
+}
+
+
+
+#item3
+{
+    display:block;
+    width:100px;
+    height:100px;
+    border:1px dashed black;
+    background-color:#ff6a00
+}
+
+
+
+#item4
+{
+    display:block;
+    width:100px;
+    height:100px;
+    border:1px dashed black;
+    background-color:#4cff00
+}
+
+
+
+#item5
+{
+    display:block;
+    width:100px;
+    height:100px;
+    border:1px dashed black;
+    background-color:#0026ff
+}
+
+#grid
+{
+    width:3px;
+    height:3px;
+    background-color:aqua;  
+    
+}
+
+.col-md-1
+{
+    border:1px solid aqua;
+}
+
+.fill
+{
+    color:white;
+    background-color:black;
+}
+
+.space
+{
+    height:20px;
+   
+}
