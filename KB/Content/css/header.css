@@ -21,53 +21,64 @@
 .navbar
 {
     min-height: 32px;
-    background-color:#273c5a;
+    background-color:#27344C;
 
-    border:1px solid #273c5a;
+    border:1px solid #27344C;
 
 }
 
 
+/*
+    navbar: #27344C
+
+    active: #FDF099
+    hover:  #54688E
+    link:   #324765
+*/
 
 
-.navbar-nav > li > a
+.navbar-default .navbar-nav > li > a
 {
-    background-color:#313e53;
+    background-color:#324765;
     width:70px;
     text-align:center;
-    color:#EAEFF0;
+    color:white;
     padding-top:4px;
     padding-bottom:4px;
 }
 
 
-.navbar .navbar-nav > li > a:link
+.navbar-default .navbar-nav > li > a:link
 {
-    background-color:#3f4f6b;
+    color:white;
+    padding-top:4px;
+    padding-bottom:4px;
     margin-left:4px;
-    color:#EAEFF0;
+    background-color:#324765;
 }
 
-.navbar .navbar-nav > li > a:visited
+.navbar-default .navbar-nav > li > a:visited
 {
   
 }
 
-.navbar .navbar-nav > li > a:hover
+.navbar-default .navbar-nav > li > a:hover
 {
-   background-color:rgb(212, 201, 120);
+   background-color:#54688E;
+   color:white;
+}
+
+.navbar-default .navbar-nav > li > a:active
+{
+   background-color:#FDF099;
    color:black;
 }
 
-.navbar .navbar-nav > li > a:active
-{
-   background-color:#FDF099;
-}
 
-
-.navbar .navbar-nav > li > a:current
+.navbar-default .navbar-nav > li > a:current
 {
-  
+    background-color:#FDF099;
+    color:black;
 }
 
 

@@ -25,11 +25,22 @@ body
 main
 {
     background-color:#FFFFFF;
-    border:2px solid #8593B4;
+    border:1px solid #8593B4;
     margin-left:20px;
     margin-bottom:5px; 
+
+    /*#E3E4E5*/
 }
 
+
+article
+{
+  /*Question: Should include grey gutter on left side like Visual Studio?*/
+
+  /*margin-left: -15px;
+  padding-right:5px;*/
+  /*border-left:17px solid #E3E4E5;*/
+}
 
 #sidebar-2
 {
@@ -52,7 +63,7 @@ main
     margin-top:5px;
     margin-left:3px;
     background-color:#FFFFFF; 
-    border:2px solid #8593B4;
+    border:1px solid #8593B4;
 
     
 
