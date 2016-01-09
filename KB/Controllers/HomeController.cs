@@ -22,7 +22,10 @@ namespace KB.Controllers
 
         public ActionResult Resume()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Title = "Asp.Net MVC C# Web Application Developer Resume";
+            ViewBag.Keywords = "Asp.Net, MVC, C#, Web Application, Developer,Resume";
+            ViewBag.Description = "";
+            ViewBag.Subject = "";
 
             return View();
         }
