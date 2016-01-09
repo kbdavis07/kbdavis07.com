@@ -8,13 +8,9 @@ html
 body 
 {
     padding-top: 175px;
-    background-color:rgba(44, 59, 86, 0.93);
+    background-color:rgba(57, 75, 108, 0.93);
     
 }
-
- 
-
-
 
 
 #page-content
@@ -36,11 +32,22 @@ main
 article
 {
   /*Question: Should include grey gutter on left side like Visual Studio?*/
-
   /*margin-left: -15px;
   padding-right:5px;*/
   /*border-left:17px solid #E3E4E5;*/
+
+  
+
 }
+
+article > p
+{
+    font-family:wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 1.5em;
+}
+
 
 #sidebar-2
 {
@@ -90,17 +97,45 @@ footer
     color:white;
     font-size:small;
     font-family:Segoe UI;
+    /*text-align: center;*/
     background-color:#1673C3;
 
 }
 
 footer > p
 {
-    margin-bottom:20px;
+  margin-top:4px; 
 }
 
-.footer
+footer  a 
 {
     color:white;
-    margin-left:5px;
-} 
+    /*margin-left:5px;*/
+}
+
+footer  a:link 
+{
+    color:white;
+    /*margin-left:5px;*/
+}
+
+
+footer  a:visited 
+{
+    color:white;
+    /*margin-left:5px;*/
+}
+
+footer  a:hover 
+{
+    color:#ddd6d6;    
+}  
+
+#ViewPort
+{
+  position:relative;
+  float:right;
+  margin-top:-30px;
+  height:20px;
+  width:136px;
+}

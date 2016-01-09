@@ -270,6 +270,8 @@
     <Content Include="Content\css\Site.css" />
     <Content Include="HTML\Header.html" />
     <Content Include="HTML\Theme.html" />
+    <Content Include="HTML\ViewPortSize.html" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\css\Grid.less" />
