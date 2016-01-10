@@ -1,7 +1,7 @@
 ﻿header {
     /* ToDo: Need to make this more responsive*/
     /*background-color: rgba(220, 224, 243, 0.91);*/
-    height: 150px;
+    height: 120px;
     background-color: #D1D7E6;
     font-family: Segoe UI;
     border:1px solid red;
@@ -30,7 +30,8 @@
 */
 
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a 
+{
     background-color: #324765;
     width: 70px;
     text-align: center;

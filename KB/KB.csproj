@@ -215,6 +215,7 @@
     <Content Include="Content\css\Header2.css" />
     <Content Include="Content\css\items.css" />
     <Content Include="Content\css\Theme.css" />
+    <Content Include="Content\css\Theme2.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\Code.PNG" />
     <Content Include="Content\img\desktop.png" />
@@ -282,6 +283,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\Site.css" />
+    <Content Include="HTML\2-col-Theme.html" />
     <Content Include="HTML\2-col.html" />
     <Content Include="HTML\Grid.html" />
     <Content Include="HTML\Header.html" />

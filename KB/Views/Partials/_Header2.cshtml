@@ -2,15 +2,13 @@
 
     <div class="row">
 
-        <div id="Pic" class="col-md-1">
+        <div id="Pic" class="col-sm-1 col-md-1">
             <img data-src="holder.js/100x100" alt="Brian Keith Davis"
                  src="https://secure.gravatar.com/avatar/fb1016f89aaf56e0137d00ccc040c75e?s=64"
                  itemprop="image" class="media-object img-circle center-block profile-pic" />
         </div>
 
-
-
-        <div class="col-md-4">
+        <div class="col-sm-4 col-md-4 header-social">
             <h5 itemprop="name"><b>Brian Keith Davis</b></h5>
             <h4 itemprop="jobTitle">Asp.Net C# MVC Web Application Developer</h4>
 
@@ -31,12 +29,12 @@
 
             <a href="skype:kbdavis07?call" target="_blank" rel="tooltip" title="Skype"
                class="fs-2x social-link link-skype icon-skype"></a>
-
         </div>
 
-        <div class="col-md-3">
 
-            <div class="desktop">
+
+        <div class="col-sm-4 col-md-4">
+           <div class="desktop">
                 <div class="screen monitor">
                     <div class="content">
                         <img id="vs" src="../../Content/img/Desktop/vs-edited.png" />
@@ -44,48 +42,37 @@
                         <div class="pg"></div>
                     </div>
                     <div class="base">
-                        <div class="grey-shadow"></div>
-                        <div class="foot top"></div>
                         <div class="foot bottom"></div>
                     </div>
                 </div>
             </div>
         </div>
-
-        
-
     </div>
 
-    <div class="clearfix visible-md-block"></div>
+        <nav class="navbar navbar-default" role="navigation">
 
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Resume", "Resume", "Home")</li>
-                    <li>@Html.ActionLink("Projects", "Projects", "Home")</li>
-                    <li>@Html.ActionLink("Portfolio", "Portfolio", "Home")</li>
-                    <li>@Html.ActionLink("Hire", "Hire", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-
-
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-
-
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Resume", "Resume", "Home")</li>
+                        <li>@Html.ActionLink("Projects", "Projects", "Home")</li>
+                        <li>@Html.ActionLink("Portfolio", "Portfolio", "Home")</li>
+                        <li>@Html.ActionLink("Hire", "Hire", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+             </div><!-- /.container-fluid -->
+        </nav>
 </header>

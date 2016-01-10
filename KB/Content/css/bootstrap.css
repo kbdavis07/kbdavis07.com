@@ -6500,13 +6500,7 @@ button.close {
 .panel-body:before,
 .panel-body:after,
 .modal-footer:before,
-.modal-footer:after,
-header:before,
-header:after,
-#page-content:before,
-#page-content:after,
-footer:before,
-footer:after {
+.modal-footer:after {
   content: " ";
   display: table;
 }
@@ -6524,10 +6518,7 @@ footer:after {
 .navbar-collapse:after,
 .pager:after,
 .panel-body:after,
-.modal-footer:after,
-header:after,
-#page-content:after,
-footer:after {
+.modal-footer:after {
   clear: both;
 }
 .center-block {
@@ -6773,86 +6764,4 @@ footer:after {
     display: none !important;
   }
 }
-/*CSS to Add BootStrap Grid to Elements on Page without requiring it to be on the actual page. */
-.make-row-eq-height {
-  display: -webkit-box;
-  /*display: -webkit-flex;*/
-  display: -ms-flexbox;
-  display: flex;
-}
-header {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-nav {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  nav {
-    float: left;
-    width: 100%;
-  }
-}
-#page-content {
-  margin-left: -15px;
-  margin-right: -15px;
-  display: -webkit-box;
-  /*display: -webkit-flex;*/
-  display: -ms-flexbox;
-  display: flex;
-}
-#sidebar-1 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  #sidebar-1 {
-    float: left;
-    width: 16.66666667%;
-  }
-}
-#sidebar-2 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  #sidebar-2 {
-    float: left;
-    width: 16.66666667%;
-  }
-}
-main {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  main {
-    float: left;
-    width: 75%;
-  }
-}
-footer {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-footer > p {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  footer > p {
-    float: left;
-    width: 100%;
-  }
-}
+/*@import "semantic-layout";*/

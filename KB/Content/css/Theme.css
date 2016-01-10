@@ -7,23 +7,38 @@ html
 
 body 
 {
-    padding-top: 175px;
     background-color:rgba(57, 75, 108, 0.93);
+}
+
+header
+{
     
 }
+
+/*.make-row-eq-height 
+{
+  display: -webkit-box;
+  /*display: -webkit-flex;*/
+  display: -ms-flexbox;
+  display:         flex;
+}*/
+
 
 
 #page-content
 {
-    
+
 }
 
 main
 {
     background-color:#FFFFFF;
     border:1px solid #8593B4;
-    margin-left:5%;
+    border-top:1px solid #27344C;
+
+    /*margin-left:1.1%;*/
     margin-bottom:5px; 
+    
 
     /*#E3E4E5*/
 }
@@ -52,7 +67,6 @@ article > p
 #sidebar-2
 {
     display:block;
-    margin-top:-5px;
     margin-left:2%;
     width:210px;
     height:600px;

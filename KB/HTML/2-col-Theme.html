@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Layout</title>
+    <title>Brian K. Davis</title>
 
     <!-- Bootstrap -->
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="../Content/css/Grid-Layout.css" rel="stylesheet" />
     <link href="../Content/css/Layout.css" rel="stylesheet" />
     <link href="../Content/css/Elegant.css" rel="stylesheet" />
+    <link href="../Content/css/Theme2.css"  rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,27 +20,44 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="container-fluid show-border">
-
-
+<body class="container-fluid">
     <header class="row">
-
         <div class="row">
-
             <img data-src="holder.js/100x100" alt="Brian Keith Davis"
                  src="https://secure.gravatar.com/avatar/fb1016f89aaf56e0137d00ccc040c75e?s=64"
-                 itemprop="image" class="col-sm-1 col-md-1 media-object img-circle center-block profile-pic" />
+                 itemprop="image" class="col-sm-1 col-md-1 media-object img-circle center-block header-pic" />
 
 
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                <h5 itemprop="name"><b>Brian Keith Davis</b></h5>
-                <h4 itemprop="jobTitle">Asp.Net C# MVC Web Application Developer</h4>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+                <p itemprop="name">Brian Keith Davis</p>
+                <p itemprop="jobTitle">Asp.Net C# MVC Web Application Developer</p>
             </div>
-
-            <!--<img class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-responsive" src="../Content/img/VS-4.png"/>-->
-
         </div>
 
+
+        <div class="col-md-4">
+            <h5 itemprop="name"><b>Brian Keith Davis</b></h5>
+            <h4 itemprop="jobTitle">Asp.Net C# MVC Web Application Developer</h4>
+
+            <a href="https://www.linkedin.com/in/kbdavis07" target="_blank" rel="tooltip" title="LinkedIn"
+               class="fs-2x social-link link-linkedin icon-linkedin"></a>
+
+            <a href="https://github.com/kbdavis07" target="_blank" rel="tooltip" title="GitHub"
+               class="fs-2x social-link link-github icon-github"></a>
+
+            <a href="https://bitbucket.org/kbdavis07/" target="_blank" rel="tooltip" title="BitBucket"
+               class="fs-2x social-link link-bitbucket icon-bitbucket"></a>
+
+            <a href="http://stackoverflow.com/users/783230/kbdavis07" target="_blank" rel="tooltip" title="StackOverFlow"
+               class="fs-2x social-link link-stackoverflow icon-stackoverflow"></a>
+
+            <a href="http://twitter.com/kbdavis07" target="_blank" rel="tooltip" title="Twitter"
+               class="fs-2x social-link link-twitter icon-twitter"></a>
+
+            <a href="skype:kbdavis07?call" target="_blank" rel="tooltip" title="Skype"
+               class="fs-2x social-link link-skype icon-skype"></a>
+
+        </div>
 
 
         <nav class="navbar navbar-default" role="navigation">
@@ -100,24 +118,16 @@
 
 
 
-    <div id="page-content" class="row make-row-eq-height  show-grid">
-
-
-        <main role="main" class="col-md-9 show-grid">
-
-            <div id="item1">  Main Content</div>
-
-           
+    <div id="page-content" class="row make-row-eq-height">
+        <main role="main" class="col-md-9">
+            <div>  Main Content</div>
 
             <article>
                 Article in Main
-
-                <div id="grid"></div>
             </article>
+         </main>
 
-        </main>
-
-        <aside id="sidebar-2" class="col-md-3 show-grid">
+        <aside id="sidebar-2" class="col-md-2 show-grid">
             Aside Sidebar 2
 
             <ul>
@@ -126,11 +136,7 @@
                 <li>3</li>
                 <li>4</li>
                 <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <li>8</li>
-                <li>9</li>
-                <li>10</li>
+                
             </ul>
 
 
@@ -140,9 +146,11 @@
 
 
 
-    <footer class="show-grid">
+    <footer>
 
         <p>    Page Footer </p>
+
+       
 
     </footer>
 

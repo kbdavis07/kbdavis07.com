@@ -1,32 +1,29 @@
-﻿
-
-.desktop {
+﻿.desktop {
     width: 400px;
-    height:250px;
-    /*margin-top:-60px;*/
-    border:1px solid red;
-    /*margin: 0px auto;*/
+    height: 250px;
+    margin-top: -59px;
     position: relative;
-    
     /* HAVE SCALED TO FIT THE WINDOW */
-    -moz-transform: scale(0.6);
-    -ms-transform: scale(0.6);
-    -o-transform: scale(0.6);
-    -webkit-transform: scale(0.6);
-    transform: scale(0.6);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
 }
 
     .desktop > .screen {
-        width: 320px;
-        height: 180px;
+        width: 340px;
+        height: 210px;
         position: relative;
         background: #0A3A53;
         border: 15px solid #474e5d;
         border-radius: 12px;
+
     }
 
 .monitor > div {
     position: absolute;
+    
 }
 
 .monitor:before,
@@ -54,19 +51,17 @@
     background: #e8ebf0;
 }
 
-.content 
-{
+.content {
     width: 420px;
     height: 240px;
     left: 1px;
-    top:-1px;
+    top: -1px;
     overflow: hidden;
 }
 
 
-#taskbar
-{
-    margin-top:-10px;
+#taskbar {
+    margin-top: -10px;
 }
 
 
@@ -78,8 +73,7 @@
     left: 99.7%;
     top: 60%;
     margin: -70px 0 0 -120px;
-    background:#B9BAC1;
-
+    background: #B9BAC1;
     /*************************Animation****************************************************************/
     -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
     -moz-animation: mymove 5s infinite;
@@ -93,10 +87,11 @@
 .base {
     width: 90px;
     height: 50px;
-    bottom: -65px;
+    bottom: -40px;
     left: 50%;
     margin-left: -45px;
     background: #e8ebf0;
+    z-index: -100;
 }
 
     .base:before,
@@ -188,10 +183,11 @@
     .foot.bottom {
         width: 150px;
         height: 5px;
-        bottom: -10px;
+        bottom: 1px;
         left: 50%;
+        
         margin-left: -75px;
-        z-index: 999;
+        z-index: -999;
     }
 
 
@@ -212,49 +208,38 @@
 
 
 
-@-webkit-keyframes mymove 
-{
-    from 
-    {
+@-webkit-keyframes mymove {
+    from {
         top: 40%;
     }
 
-    to 
-    {
+    to {
         top: 75%;
     }
 }
 
-@keyframes mymove 
-{
-    from 
-    {
+@keyframes mymove {
+    from {
         top: 60%;
     }
 
-    to 
-    {
+    to {
         top: 75%;
     }
 }
 
- 
-@-moz-keyframes mymove 
 
-{
-    from 
-    {
+@-moz-keyframes mymove {
+    from {
         top: 60%;
     }
 
-    to 
-    {
+    to {
         top: 75%;
     }
 }
 
-@keyframes mymove 
-{
+@keyframes mymove {
     from {
         top: 60%;
     }

@@ -4,73 +4,63 @@
 
 @Html.Partial("../Partials/_Head")
 
-<body class="container-fluid">
+<body>
 
-
-    @Html.Partial("../Partials/_Header")
-   
-
-    <div id="page-content">
-
-
-        <main role="main">
-
-            <article>
-
-                @RenderBody()
-
-
-            </article>
-
-
-        </main>
-
-        <aside id="sidebar-2">
-
-            @Html.Partial("../Widgets/_Widget1")
-            
-
-            @RenderSection("sidebar2", required: false)
+    <div class="container-fluid">
 
 
 
-        </aside>
+        @Html.Partial("../Partials/_Header2")
 
+
+        <div id="page-content">
+            <div class="row make-row-eq-height">
+                <main role="main">
+                    <div class="class=" col-md-9">
+                        <article>
+                            @RenderBody()
+                        </article>
+                    </div>
+                </main>
+
+                <aside id="sidebar-2">
+                    <div class="col-md-2">
+                        @Html.Partial("../Widgets/_Widget1")
+                        @RenderSection("sidebar2", required: false)
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+
+        <footer>
+
+            <p>
+                © Copyright @DateTime.Now.Year, <a href="http://Kbdavis07.Com" title="Brian Keith Davis (Kbdavis07.Com)">Brian Keith Davis</a>.
+                Website Developed & Design by <a href="http://twitter.com/kbdavis07" title="Brian Keith Davis (Kbdavis07)"> kbdavis07 </a>
+            </p>
+            <div id="ViewPort">Width:<span id="width"></span> Height:<span id="height"> </span> </div>
+        </footer>
+        <!-- Start Scripts------------------------------------------------------------------------------------------->
+        @*@Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")*@
+        @RenderSection("scripts", required: false)
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script src="../Scripts/app.js"></script>
+
+
+
+
+
+
+        <!-- End of Scripts------------------------------------------------------------------------------------------->
     </div>
-
-
-
-    <footer>
-
-        <p>
-            © Copyright @DateTime.Now.Year, <a href="http://Kbdavis07.Com" title="Brian Keith Davis (Kbdavis07.Com)">Brian Keith Davis</a>.
-            Website Developed & Design by <a href="http://twitter.com/kbdavis07" title="Brian Keith Davis (Kbdavis07)"> kbdavis07 </a>
-        </p>
-        <div id="ViewPort">Width:<span id="width"></span> Height:<span id="height"> </span> </div>
-
-
-    </footer>
-    <!-- Start Scripts------------------------------------------------------------------------------------------->
-
-    @*@Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")*@
-    @RenderSection("scripts", required: false)
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <script src="../Scripts/app.js"></script>
-
-
-
-
-
-
-    <!-- End of Scripts------------------------------------------------------------------------------------------->
-
 </body>
 </html>
