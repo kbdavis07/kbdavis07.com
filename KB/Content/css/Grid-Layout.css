@@ -1,14 +1,26 @@
 ﻿
 /*CSS to show Grid Lines and Layout a Design Tool*/
 
+html
+{
+    /*Bug:Some reason it is overflowing so must set width*/
+    width:99.1%;
+    
+}
 
-/*article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary
+body
+{
+   
+   
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary
 {
     background-color:rgba(234, 232, 238, 0.40);
     border:1px dashed black;
     margin:0.1%;
      
-}*/
+}
 
 /*Row with equal height columns
 Credit: http://acmetech.github.io/todc-bootstrap-3/examples/equal-height-columns/*/
@@ -18,7 +30,7 @@ Credit: http://acmetech.github.io/todc-bootstrap-3/examples/equal-height-columns
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display:         flex;
+  display: flex;
 }
 
 
@@ -39,10 +51,13 @@ Credit: http://acmetech.github.io/todc-bootstrap-3/examples/equal-height-columns
 #page-content
 {
    background-color:rgba(128, 128, 128, 0.32); 
+   /*border:1px solid red;*/
+   
 }
 
 
-header 
+
+footer 
 {
-    
+    border:1px dashed black;
 }

@@ -204,12 +204,6 @@
     </Content>
     <Content Include="Content\css\Computer.css" />
     <Content Include="Content\css\Elegant.css" />
-    <Content Include="Content\css\Grid.css">
-      <DependentUpon>Grid.less</DependentUpon>
-    </Content>
-    <Content Include="Content\css\Grid.min.css">
-      <DependentUpon>Grid.css</DependentUpon>
-    </Content>
     <Content Include="Content\css\header.css" />
     <Content Include="Content\css\Grid-Layout.css" />
     <Content Include="Content\css\Header2.css" />
@@ -293,7 +287,6 @@
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Content\css\Grid.less" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
