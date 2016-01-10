@@ -212,10 +212,16 @@
     </Content>
     <Content Include="Content\css\header.css" />
     <Content Include="Content\css\Grid-Layout.css" />
+    <Content Include="Content\css\Header2.css" />
     <Content Include="Content\css\items.css" />
     <Content Include="Content\css\Theme.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\Code.PNG" />
+    <Content Include="Content\img\desktop.png" />
+    <Content Include="Content\img\Desktop\desktop.png" />
+    <Content Include="Content\img\Desktop\taskbar.png" />
+    <Content Include="Content\img\Desktop\vs-edited.png" />
+    <Content Include="Content\img\Desktop\vs.PNG" />
     <Content Include="Content\img\doc\Brian K. Davis %28Web Application Developer%29 2016-01-06 21-07-58.png" />
     <Content Include="Content\img\doc\Brian K. Davis %28Web Application Developer%29 2016-01-08 23-39-46.png" />
     <Content Include="Content\img\doc\Code.PNG" />
@@ -263,6 +269,9 @@
     <Content Include="Content\img\main.png" />
     <Content Include="Content\img\VisualStudio-Resized.png" />
     <Content Include="Content\img\VisualStudio.png" />
+    <Content Include="Content\img\VisualStudio\VS-3.png" />
+    <Content Include="Content\img\VisualStudio\VS-4.png" />
+    <Content Include="Content\img\VisualStudio\vs-head.PNG" />
     <Content Include="Content\img\VS-1.PNG" />
     <Content Include="Content\img\VS-2.png" />
     <Content Include="Content\img\VS-3.png" />
@@ -434,6 +443,7 @@
     <Content Include="Views\Partials\_Header.cshtml" />
     <Content Include="Views\Widgets\_Widget1.cshtml" />
     <Content Include="Views\Partials\_Head.cshtml" />
+    <Content Include="Views\Partials\_Header2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

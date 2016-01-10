@@ -1,9 +1,10 @@
 ﻿header {
     /* ToDo: Need to make this more responsive*/
     /*background-color: rgba(220, 224, 243, 0.91);*/
-    height: 136px;
+    height: 150px;
     background-color: #D1D7E6;
     font-family: Segoe UI;
+    border:1px solid red;
 }
 
 #header-image {
