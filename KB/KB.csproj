@@ -397,6 +397,9 @@
     <Content Include="HTML\LayOut.html" />
     <Content Include="Tools\css\ShowGrid.css" />
     <Content Include="Tools\html\Div.html" />
+    <Content Include="Tools\html\Element.html" />
+    <Content Include="Tools\js\CustomElements.js" />
+    <Content Include="Tools\js\tools.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -448,9 +451,7 @@
     <Content Include="packages.config" />
     <None Include="HTML\Project_Readme.html" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tools\js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

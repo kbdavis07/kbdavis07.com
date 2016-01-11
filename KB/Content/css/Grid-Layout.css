@@ -1,4 +1,11 @@
 ﻿
+container,sidebar
+{
+    display:block;
+}
+
+
+
 /*CSS to show Grid Lines and Layout a Design Tool*/
 
 html
