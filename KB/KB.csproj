@@ -187,29 +187,27 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyFileVersion.cs</LastGenOutput>
     </Content>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap\Grid.css">
       <DependentUpon>semantic-layout.less</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap\Grid.min.css">
       <DependentUpon>Grid.css</DependentUpon>
     </Content>
-    <Content Include="Content\css\960.css" />
+    <Content Include="Tools\960.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
-    <Content Include="Content\css\Computer.css" />
-    <Content Include="Content\css\Elegant.css" />
-    <Content Include="Content\css\header.css" />
-    <Content Include="Content\css\Grid-Layout.css" />
-    <Content Include="Content\css\Header2.css" />
-    <Content Include="Content\css\items.css" />
-    <Content Include="Content\css\Theme.css" />
-    <Content Include="Content\css\Theme2.css" />
+    <Content Include="VS-Theme\css\Computer.css" />
+    <Content Include="VS-Theme\css\Elegant.css" />
+    <Content Include="VS-Theme\css\header.css" />
+    <Content Include="Tools\Grid-Layout.css" />
+    <Content Include="VS-Theme\css\Header2.css" />
+    <Content Include="Tools\css\items.css" />
+    <Content Include="VS-Theme\css\Theme.css" />
+    <Content Include="VS-Theme\css\Theme2.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\Code.PNG" />
     <Content Include="Content\img\desktop.png" />
@@ -276,7 +274,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\css\Site.css" />
+    <Content Include="VS-Theme\css\Site.css" />
     <Content Include="HTML\2-col-Theme.html" />
     <Content Include="HTML\2-col.html" />
     <Content Include="HTML\Grid.html" />
@@ -370,10 +368,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap.min.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap\semantic-layout.less" />
     <Content Include="Content\img\favicon\manifest.json" />
     <Content Include="Content\img\doc\453d2d304232098e5878d2e9582bfaab.ico.zip" />
@@ -400,6 +398,13 @@
     <Content Include="Tools\html\Element.html" />
     <Content Include="Tools\js\CustomElements.js" />
     <Content Include="Tools\js\tools.js" />
+    <Content Include="VS-Theme\css\ShowGrid.css" />
+    <Content Include="VS-Theme\css\vs-theme.css" />
+    <Content Include="VS-Theme\html\Div.html" />
+    <Content Include="VS-Theme\html\Element.html" />
+    <Content Include="VS-Theme\html\vs-theme.html" />
+    <Content Include="VS-Theme\js\CustomElements.js" />
+    <Content Include="VS-Theme\js\tools.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
