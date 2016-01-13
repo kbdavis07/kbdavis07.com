@@ -195,19 +195,16 @@
     <Content Include="Content\bootstrap\Grid.min.css">
       <DependentUpon>Grid.css</DependentUpon>
     </Content>
-    <Content Include="Tools\960.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
-    <Content Include="VS-Theme\css\Computer.css" />
-    <Content Include="VS-Theme\css\Elegant.css" />
-    <Content Include="VS-Theme\css\header.css" />
-    <Content Include="Tools\Grid-Layout.css" />
-    <Content Include="VS-Theme\css\Header2.css" />
-    <Content Include="Tools\css\items.css" />
-    <Content Include="VS-Theme\css\Theme.css" />
-    <Content Include="VS-Theme\css\Theme2.css" />
+    <Content Include="Themes\VS-1\css\Computer.css" />
+    <Content Include="Themes\VS-1\css\Elegant.css" />
+    <Content Include="Themes\VS-1\css\header.css" />
+    <Content Include="Themes\VS-1\css\Header2.css" />
+    <Content Include="Themes\VS-1\css\Theme.css" />
+    <Content Include="Themes\VS-1\css\Theme2.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\Code.PNG" />
     <Content Include="Content\img\desktop.png" />
@@ -274,17 +271,10 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="VS-Theme\css\Site.css" />
-    <Content Include="HTML\2-col-Theme.html" />
-    <Content Include="HTML\2-col.html" />
-    <Content Include="HTML\Grid.html" />
-    <Content Include="HTML\Header.html" />
-    <Content Include="HTML\Header\Computer.html" />
-    <Content Include="HTML\Theme.html" />
-    <Content Include="HTML\ViewPortSize.html" />
-    <Content Include="Scripts\app.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Themes\VS-1\css\Site.css" />
+    <Content Include="Scripts\app\app.js" />
+    <Content Include="Scripts\bootstrap\bootstrap.js" />
+    <Content Include="Scripts\bootstrap\bootstrap.min.js" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -375,36 +365,28 @@
     <Content Include="Content\bootstrap\semantic-layout.less" />
     <Content Include="Content\img\favicon\manifest.json" />
     <Content Include="Content\img\doc\453d2d304232098e5878d2e9582bfaab.ico.zip" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
-    <Content Include="Scripts\jquery-2.1.4.js" />
-    <Content Include="Scripts\jquery-2.1.4.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <None Include="Scripts\jquery\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery\jquery-2.1.4.min.js" />
+    <None Include="Scripts\jquery\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery\jquery.validate.js" />
+    <Content Include="Scripts\jquery\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.matchmedia.addListener.js" />
-    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\resume.js" />
+    <Content Include="Scripts\respond\respond.js" />
+    <Content Include="Scripts\respond\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond\respond.min.js" />
+    <Content Include="Scripts\app\resume.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="HTML\Elegant-Index.html" />
-    <Content Include="HTML\LayOut.html" />
-    <Content Include="Tools\css\ShowGrid.css" />
-    <Content Include="Tools\html\Div.html" />
-    <Content Include="Tools\html\Element.html" />
-    <Content Include="Tools\js\CustomElements.js" />
-    <Content Include="Tools\js\tools.js" />
-    <Content Include="VS-Theme\css\ShowGrid.css" />
-    <Content Include="VS-Theme\css\vs-theme.css" />
-    <Content Include="VS-Theme\html\Div.html" />
-    <Content Include="VS-Theme\html\Element.html" />
-    <Content Include="VS-Theme\html\vs-theme.html" />
-    <Content Include="VS-Theme\js\CustomElements.js" />
-    <Content Include="VS-Theme\js\tools.js" />
+    <Content Include="Themes\VS-1\css\ShowGrid.css" />
+    <Content Include="Themes\VS-1\css\vs-theme.css" />
+    <Content Include="Themes\VS-1\html\Div.html" />
+    <Content Include="Themes\VS-1\html\Element.html" />
+    <Content Include="Themes\VS-1\html\vs-theme.html" />
+    <Content Include="Themes\VS-1\js\CustomElements.js" />
+    <Content Include="Themes\VS-1\js\tools.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -439,7 +421,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <Content Include="Scripts\jquery\jquery-2.1.4.min.map" />
     <Content Include="Views\Home\Resume.cshtml" />
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
@@ -454,7 +436,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="HTML\Project_Readme.html" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
