@@ -1,0 +1,206 @@
+﻿header {
+    /* ToDo: Need to make this more responsive*/
+    /*background-color: rgba(220, 224, 243, 0.91);*/
+    height: 120px;
+    background-color: #D1D7E6;
+    font-family: Segoe UI;
+    border:1px solid red;
+}
+
+#header-image {
+    margin: 1px;
+    height: 130px;
+    /*background-image: url('../img/VS-3.png');*/
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    min-height: 34px;
+    background-color: #27344C;
+    border: 1px solid #27344C;
+}
+
+
+/*
+    navbar: #27344C
+
+    active: #FDF099
+    hover:  #54688E
+    link:   #324765
+*/
+
+
+.navbar-default .navbar-nav > li > a 
+{
+    background-color: #324765;
+    width: 70px;
+    text-align: center;
+    color: white;
+}
+
+
+    .navbar-default .navbar-nav > li > a:link {
+        color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-left: 4px;
+        margin-top: 2px;
+        background-color: #324765;
+    }
+
+    .navbar-default .navbar-nav > li > a:visited {
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: #54688E;
+        color: white;
+    }
+
+    .navbar-default .navbar-nav > li > a:active {
+        background-color: #FDF099;
+        color: black;
+    }
+
+
+    .navbar-default .navbar-nav > li > a:current {
+        background-color: #FDF099;
+        color: black;
+    }
+
+
+.profile-pic {
+    margin-top: 7px;
+    margin-left: 20px;
+    filter: drop-shadow(16px 16px 20px black);
+}
+
+#Pic {
+    /*background-color: rgba(220, 224, 243, 0.91);
+    -webkit-animation-name: example;
+    -moz-animation-name: example;
+    -o-animation-name: example;
+    animation-name: example; /* Chrome, Safari, Opera 
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera 
+    animation-name: example;
+    animation-duration: 5s;
+
+    -webkit-animation: spin1 2s linear;
+    -moz-animation: spin1 2s linear;
+    -o-animation: spin1 2s linear;
+     animation: spin1 2s linear;*/
+}
+
+
+/* Chrome, Safari, Opera */
+    @-webkit-keyframes example {
+        from {
+            background-color: rgba(125, 145, 177, 0.59);
+        }
+
+        to {
+            background-color: rgba(220, 224, 243, 0.91);
+        }
+    }
+    /* Standard syntax */
+    @keyframes example {
+        from {
+            background-color: rgba(125, 145, 177, 0.59);
+        }
+
+        to {
+            background-color: rgba(220, 224, 243, 0.91);
+        }
+    }
+
+
+
+
+    @-webkit-keyframes spin1 {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @-moz-keyframes spin1 {
+        0% {
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @-o-keyframes spin1 {
+        0% {
+            -o-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -o-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @-ms-keyframes spin1 {
+        0% {
+            -ms-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -ms-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin1 {
+        0% {
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }

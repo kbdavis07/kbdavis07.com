@@ -153,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\CustomViewLocation.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -387,6 +388,21 @@
     <Content Include="Themes\VS-1\html\vs-theme.html" />
     <Content Include="Themes\VS-1\js\CustomElements.js" />
     <Content Include="Themes\VS-1\js\tools.js" />
+    <Content Include="Themes\VS-2\css\bootstrap.css" />
+    <Content Include="Themes\VS-2\css\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
+    <Content Include="Themes\VS-2\css\Computer.css" />
+    <Content Include="Themes\VS-2\css\Elegant.css" />
+    <Content Include="Themes\VS-2\css\header.css" />
+    <Content Include="Themes\VS-2\css\Header2.css" />
+    <Content Include="Themes\VS-2\css\ShowGrid.css" />
+    <Content Include="Themes\VS-2\css\Site.css" />
+    <Content Include="Themes\VS-2\css\Theme.css" />
+    <Content Include="Themes\VS-2\css\Theme2.css" />
+    <Content Include="Themes\VS-2\css\vs-theme.css" />
+    <Content Include="Themes\VS-2\js\CustomElements.js" />
+    <Content Include="Themes\VS-2\js\tools.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -397,7 +413,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -426,10 +441,17 @@
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
     <Content Include="Views\Home\Hire.cshtml" />
-    <Content Include="Views\Partials\_Header.cshtml" />
-    <Content Include="Views\Widgets\_Widget1.cshtml" />
-    <Content Include="Views\Partials\_Head.cshtml" />
-    <Content Include="Views\Partials\_Header2.cshtml" />
+    <Content Include="Themes\VS-2\_Layout.cshtml" />
+    <Content Include="Themes\VS-1\_Layout.cshtml" />
+    <Content Include="Themes\VS-2\Partials\_Head.cshtml" />
+    <Content Include="Themes\VS-2\Partials\_Header.cshtml" />
+    <Content Include="Themes\VS-2\Partials\_Header2.cshtml" />
+    <Content Include="Themes\VS-1\Partials\_Head.cshtml" />
+    <Content Include="Themes\VS-1\Partials\_Header.cshtml" />
+    <Content Include="Themes\VS-1\Partials\_Header2.cshtml" />
+    <Content Include="Themes\VS-1\Widgets\_Widget1.cshtml" />
+    <Content Include="Themes\VS-2\Widgets\_Widget1.cshtml" />
+    <Content Include="Themes\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
