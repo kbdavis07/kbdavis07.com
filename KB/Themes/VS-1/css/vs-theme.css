@@ -518,11 +518,7 @@ article > p
 aside
 {
     display:block;
-    margin-left:2%;
-    width:210px;
-    height:100%;
     font-family:Segoe UI;
-    
 }
 
 
@@ -530,28 +526,23 @@ aside .widget
 {
     display:block;
     position:relative;
-    width:200px;
-    height:300px;
-    padding:1px;
     margin-top:5px;
-    margin-left:3px;
     background-color:#FFFFFF; 
     border:1px solid #8593B4;
-    margin-top:1px;
     margin-bottom:2px;
     
 }
 
 aside .widget > header
 {
-    height:25px;
+    /*height:25px;
     width:100%;
     margin-left:1px;
     color:black;
     font-size:medium;
     margin-top:-1px; 
     border:2px solid #324765; 
-    background-color:#324765;
+    background-color:#324765;*/
 
 }
 
