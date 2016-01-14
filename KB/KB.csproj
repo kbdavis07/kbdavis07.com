@@ -200,79 +200,61 @@
     <Content Include="Content\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
+    <Content Include="img\Desktop\desktop.png" />
+    <Content Include="img\Desktop\taskbar.png" />
+    <Content Include="img\Desktop\vs-edited.png" />
+    <Content Include="img\Desktop\vs.PNG" />
+    <Content Include="img\doc\Brian K. Davis %28Web Application Developer%29 2016-01-06 21-07-58.png" />
+    <Content Include="img\doc\Brian K. Davis %28Web Application Developer%29 2016-01-08 23-39-46.png" />
+    <Content Include="img\doc\Code.PNG" />
+    <Content Include="img\doc\content.PNG" />
+    <Content Include="img\doc\footer.png" />
+    <Content Include="img\doc\link-hover.PNG" />
+    <Content Include="img\doc\Link-States.png" />
+    <Content Include="img\doc\main.png" />
+    <Content Include="img\doc\me.jpeg" />
+    <Content Include="img\doc\VisualStudio-Resized.png" />
+    <Content Include="img\doc\VisualStudio.png" />
+    <Content Include="img\doc\VS-1.PNG" />
+    <Content Include="img\doc\VS-2.png" />
+    <Content Include="img\doc\Widget.png" />
+    <Content Include="img\favicon\android-icon-144x144.png" />
+    <Content Include="img\favicon\android-icon-192x192.png" />
+    <Content Include="img\favicon\android-icon-36x36.png" />
+    <Content Include="img\favicon\android-icon-48x48.png" />
+    <Content Include="img\favicon\android-icon-72x72.png" />
+    <Content Include="img\favicon\android-icon-96x96.png" />
+    <Content Include="img\favicon\apple-icon-114x114.png" />
+    <Content Include="img\favicon\apple-icon-120x120.png" />
+    <Content Include="img\favicon\apple-icon-144x144.png" />
+    <Content Include="img\favicon\apple-icon-152x152.png" />
+    <Content Include="img\favicon\apple-icon-180x180.png" />
+    <Content Include="img\favicon\apple-icon-57x57.png" />
+    <Content Include="img\favicon\apple-icon-60x60.png" />
+    <Content Include="img\favicon\apple-icon-72x72.png" />
+    <Content Include="img\favicon\apple-icon-76x76.png" />
+    <Content Include="img\favicon\apple-icon-precomposed.png" />
+    <Content Include="img\favicon\apple-icon.png" />
+    <Content Include="img\favicon\browserconfig.xml" />
+    <Content Include="img\favicon\favicon-16x16.png" />
+    <Content Include="img\favicon\favicon-32x32.png" />
+    <Content Include="img\favicon\favicon-96x96.png" />
+    <Content Include="img\favicon\favicon.ico" />
+    <Content Include="img\favicon\ms-icon-144x144.png" />
+    <Content Include="img\favicon\ms-icon-150x150.png" />
+    <Content Include="img\favicon\ms-icon-310x310.png" />
+    <Content Include="img\favicon\ms-icon-70x70.png" />
+    <Content Include="img\gitter.ico" />
+    <Content Include="img\gitter.png" />
+    <Content Include="img\VisualStudio\VS-3.png" />
+    <Content Include="img\VisualStudio\VS-4.png" />
+    <Content Include="img\VisualStudio\vs-head.PNG" />
     <Content Include="Themes\VS-1\css\Computer.css" />
     <Content Include="Themes\VS-1\css\Elegant.css" />
-    <Content Include="Themes\VS-1\css\header.css" />
-    <Content Include="Themes\VS-1\css\Header2.css" />
-    <Content Include="Themes\VS-1\css\Theme.css" />
-    <Content Include="Themes\VS-1\css\Theme2.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\img\Code.PNG" />
-    <Content Include="Content\img\desktop.png" />
-    <Content Include="Content\img\Desktop\desktop.png" />
-    <Content Include="Content\img\Desktop\taskbar.png" />
-    <Content Include="Content\img\Desktop\vs-edited.png" />
-    <Content Include="Content\img\Desktop\vs.PNG" />
-    <Content Include="Content\img\doc\Brian K. Davis %28Web Application Developer%29 2016-01-06 21-07-58.png" />
-    <Content Include="Content\img\doc\Brian K. Davis %28Web Application Developer%29 2016-01-08 23-39-46.png" />
-    <Content Include="Content\img\doc\Code.PNG" />
-    <Content Include="Content\img\doc\content.PNG" />
-    <Content Include="Content\img\doc\footer.png" />
-    <Content Include="Content\img\doc\link-hover.PNG" />
-    <Content Include="Content\img\doc\Link-States.png" />
-    <Content Include="Content\img\doc\main.png" />
-    <Content Include="Content\img\doc\me.jpeg" />
-    <Content Include="Content\img\doc\VisualStudio-Resized.png" />
-    <Content Include="Content\img\doc\VisualStudio.png" />
-    <Content Include="Content\img\doc\VS-1.PNG" />
-    <Content Include="Content\img\doc\VS-2.png" />
-    <Content Include="Content\img\doc\Widget.png" />
-    <Content Include="Content\img\favicon\android-icon-144x144.png" />
-    <Content Include="Content\img\favicon\android-icon-192x192.png" />
-    <Content Include="Content\img\favicon\android-icon-36x36.png" />
-    <Content Include="Content\img\favicon\android-icon-48x48.png" />
-    <Content Include="Content\img\favicon\android-icon-72x72.png" />
-    <Content Include="Content\img\favicon\android-icon-96x96.png" />
-    <Content Include="Content\img\favicon\apple-icon-114x114.png" />
-    <Content Include="Content\img\favicon\apple-icon-120x120.png" />
-    <Content Include="Content\img\favicon\apple-icon-144x144.png" />
-    <Content Include="Content\img\favicon\apple-icon-152x152.png" />
-    <Content Include="Content\img\favicon\apple-icon-180x180.png" />
-    <Content Include="Content\img\favicon\apple-icon-57x57.png" />
-    <Content Include="Content\img\favicon\apple-icon-60x60.png" />
-    <Content Include="Content\img\favicon\apple-icon-72x72.png" />
-    <Content Include="Content\img\favicon\apple-icon-76x76.png" />
-    <Content Include="Content\img\favicon\apple-icon-precomposed.png" />
-    <Content Include="Content\img\favicon\apple-icon.png" />
-    <Content Include="Content\img\favicon\browserconfig.xml" />
-    <Content Include="Content\img\favicon\favicon-16x16.png" />
-    <Content Include="Content\img\favicon\favicon-32x32.png" />
-    <Content Include="Content\img\favicon\favicon-96x96.png" />
-    <Content Include="Content\img\favicon\favicon.ico" />
-    <Content Include="Content\img\favicon\ms-icon-144x144.png" />
-    <Content Include="Content\img\favicon\ms-icon-150x150.png" />
-    <Content Include="Content\img\favicon\ms-icon-310x310.png" />
-    <Content Include="Content\img\favicon\ms-icon-70x70.png" />
-    <Content Include="Content\img\footer.png" />
-    <Content Include="Content\img\gitter.ico" />
-    <Content Include="Content\img\gitter.png" />
-    <Content Include="Content\img\link-hover.PNG" />
-    <Content Include="Content\img\main.png" />
-    <Content Include="Content\img\VisualStudio-Resized.png" />
-    <Content Include="Content\img\VisualStudio.png" />
-    <Content Include="Content\img\VisualStudio\VS-3.png" />
-    <Content Include="Content\img\VisualStudio\VS-4.png" />
-    <Content Include="Content\img\VisualStudio\vs-head.PNG" />
-    <Content Include="Content\img\VS-1.PNG" />
-    <Content Include="Content\img\VS-2.png" />
-    <Content Include="Content\img\VS-3.png" />
-    <Content Include="Content\img\VS-4.png" />
-    <Content Include="Content\img\vs-head.PNG" />
-    <Content Include="Content\img\Widget.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Themes\VS-1\css\Site.css" />
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\bootstrap\bootstrap.js" />
     <Content Include="Scripts\bootstrap\bootstrap.min.js" />
@@ -364,8 +346,8 @@
     <Content Include="Content\css\bootstrap-theme.min.css.map" />
     <Content Include="Content\css\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap\semantic-layout.less" />
-    <Content Include="Content\img\favicon\manifest.json" />
-    <Content Include="Content\img\doc\453d2d304232098e5878d2e9582bfaab.ico.zip" />
+    <Content Include="img\doc\453d2d304232098e5878d2e9582bfaab.ico.zip" />
+    <Content Include="img\favicon\manifest.json" />
     <None Include="Scripts\jquery\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery\jquery-2.1.4.min.js" />
@@ -381,11 +363,60 @@
     <Content Include="Scripts\respond\respond.min.js" />
     <Content Include="Scripts\app\resume.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Themes\VS-1\css\ShowGrid.css" />
     <Content Include="Themes\VS-1\css\vs-theme.css" />
     <Content Include="Themes\VS-1\html\Div.html" />
     <Content Include="Themes\VS-1\html\Element.html" />
     <Content Include="Themes\VS-1\html\vs-theme.html" />
+    <Content Include="Themes\VS-1\img\Desktop\desktop.png" />
+    <Content Include="Themes\VS-1\img\Desktop\taskbar.png" />
+    <Content Include="Themes\VS-1\img\Desktop\vs-edited.png" />
+    <Content Include="Themes\VS-1\img\Desktop\vs.PNG" />
+    <Content Include="Themes\VS-1\img\doc\Brian K. Davis %28Web Application Developer%29 2016-01-06 21-07-58.png" />
+    <Content Include="Themes\VS-1\img\doc\Brian K. Davis %28Web Application Developer%29 2016-01-08 23-39-46.png" />
+    <Content Include="Themes\VS-1\img\doc\Code.PNG" />
+    <Content Include="Themes\VS-1\img\doc\content.PNG" />
+    <Content Include="Themes\VS-1\img\doc\footer.png" />
+    <Content Include="Themes\VS-1\img\doc\link-hover.PNG" />
+    <Content Include="Themes\VS-1\img\doc\Link-States.png" />
+    <Content Include="Themes\VS-1\img\doc\main.png" />
+    <Content Include="Themes\VS-1\img\doc\me.jpeg" />
+    <Content Include="Themes\VS-1\img\doc\Status-2-BreakPoint.png" />
+    <Content Include="Themes\VS-1\img\doc\Status-Report-2.png" />
+    <Content Include="Themes\VS-1\img\doc\VisualStudio-Resized.png" />
+    <Content Include="Themes\VS-1\img\doc\VisualStudio.png" />
+    <Content Include="Themes\VS-1\img\doc\VS-1.PNG" />
+    <Content Include="Themes\VS-1\img\doc\VS-2.png" />
+    <Content Include="Themes\VS-1\img\doc\vs-edited.png" />
+    <Content Include="Themes\VS-1\img\doc\Widget.png" />
+    <Content Include="Themes\VS-1\img\favicon\android-icon-144x144.png" />
+    <Content Include="Themes\VS-1\img\favicon\android-icon-192x192.png" />
+    <Content Include="Themes\VS-1\img\favicon\android-icon-36x36.png" />
+    <Content Include="Themes\VS-1\img\favicon\android-icon-48x48.png" />
+    <Content Include="Themes\VS-1\img\favicon\android-icon-72x72.png" />
+    <Content Include="Themes\VS-1\img\favicon\android-icon-96x96.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-114x114.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-120x120.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-144x144.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-152x152.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-180x180.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-57x57.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-60x60.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-72x72.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-76x76.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon-precomposed.png" />
+    <Content Include="Themes\VS-1\img\favicon\apple-icon.png" />
+    <Content Include="Themes\VS-1\img\favicon\browserconfig.xml" />
+    <Content Include="Themes\VS-1\img\favicon\favicon-16x16.png" />
+    <Content Include="Themes\VS-1\img\favicon\favicon-32x32.png" />
+    <Content Include="Themes\VS-1\img\favicon\favicon-96x96.png" />
+    <Content Include="Themes\VS-1\img\favicon\favicon.ico" />
+    <Content Include="Themes\VS-1\img\favicon\ms-icon-144x144.png" />
+    <Content Include="Themes\VS-1\img\favicon\ms-icon-150x150.png" />
+    <Content Include="Themes\VS-1\img\favicon\ms-icon-310x310.png" />
+    <Content Include="Themes\VS-1\img\favicon\ms-icon-70x70.png" />
+    <Content Include="Themes\VS-1\img\VisualStudio\VS-3.png" />
+    <Content Include="Themes\VS-1\img\VisualStudio\VS-4.png" />
+    <Content Include="Themes\VS-1\img\VisualStudio\vs-head.PNG" />
     <Content Include="Themes\VS-1\js\CustomElements.js" />
     <Content Include="Themes\VS-1\js\tools.js" />
     <Content Include="Themes\VS-2\css\bootstrap.css" />
@@ -448,10 +479,12 @@
     <Content Include="Themes\VS-2\Partials\_Header2.cshtml" />
     <Content Include="Themes\VS-1\Partials\_Head.cshtml" />
     <Content Include="Themes\VS-1\Partials\_Header.cshtml" />
-    <Content Include="Themes\VS-1\Partials\_Header2.cshtml" />
     <Content Include="Themes\VS-1\Widgets\_Widget1.cshtml" />
     <Content Include="Themes\VS-2\Widgets\_Widget1.cshtml" />
     <Content Include="Themes\Web.config" />
+    <Content Include="Themes\VS-1\img\doc\453d2d304232098e5878d2e9582bfaab.ico.zip" />
+    <Content Include="Themes\VS-1\img\favicon\manifest.json" />
+    <Content Include="Themes\VS-1\Widgets\_Widget-2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -459,13 +492,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Content\img\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Content\img\gitter.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

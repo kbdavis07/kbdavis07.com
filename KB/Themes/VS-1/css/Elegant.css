@@ -85,14 +85,6 @@ a:active {
 
 
 
-
-
-
-
-
-
-
-
 .icon-bars:before {
 	content: "\f0c9";
 }
@@ -178,7 +170,6 @@ a:active {
 
 
 
-
 .relative {
   position: relative;
 }
@@ -252,14 +243,20 @@ a:active {
   padding: 0;
   outline: none !important;
 }
+
+
 body {
   font-family: 'Lato';
   background: #f0f0f0;
   color: #333333;
 }
+
+
 .main {
   padding: 5px;
 }
+
+
 .card {
   background: #ffffff;
   border: 1px solid #e6e6e6;
@@ -299,6 +296,7 @@ body {
 .background-details .detail {
   display: table;
   padding: 10px 0;
+
 }
 .background-details .detail .icon {
   min-width: 45px;
@@ -347,223 +345,24 @@ body {
     display: none;
   }
 }
-.info .content.has-sidebar {
-  width: 80%;
-  box-sizing: border-box;
-  float: left;
-  padding: 0 10px;
-  border-right: 1px solid #cdcdcd;
-}
-@media (max-width: 992px) {
-  .info .content.has-sidebar {
-    width: 100%;
-    border-right: 0;
-  }
-}
-@media (max-width: 480px) {
-  .info .content.has-sidebar {
-    padding: 0 2px;
-  }
-}
-.info .sidebar {
-  margin-left: 80%;
-  box-sizing: border-box;
-  padding: 10px;
-}
-@media (max-width: 480px) {
-  ul {
-    padding-left: 25px;
-  }
-}
-.current-event {
+
+
+
+
+/*.current-event {
   font-size: 8px;
   color: #5ACE24;
   position: absolute;
   right: 100%;
   top: 4px;
   left: -10px;
-}
+}*/
+
+
+
 /*
     Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
 */
-.floating-nav-trigger {
-  width: 50px;
-  height: 50px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  -webkit-transition: background-color 0.5s ease;
-  -o-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
-  display: block;
-  border-radius: 50%;
-  text-align: center;
-  background-color: white;
-  font-size: 1.5em;
-  color: #357ebd;
-  z-index: 100;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  text-decoration: none !important;
-}
-.floating-nav-trigger > [class^="icon-"],
-.floating-nav-trigger [class*=" icon-"],
-.floating-nav-trigger > .close-icon {
-  line-height: 50px;
-}
-.floating-nav-trigger .close-icon {
-  display: none;
-}
-.floating-nav-trigger:hover {
-  color: #1f496e;
-  background-color: #e6e6e6;
-}
-.floating-nav-trigger.is-open {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.floating-nav-trigger.is-open .close-icon {
-  display: inherit;
-}
-.floating-nav-trigger.is-open .icon-bars {
-  display: none;
-}
-.floating-nav-trigger.is-open:hover {
-  background-color: white;
-}
-.floating-nav {
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transform-origin: 100% 100%;
-  -moz-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
-  -o-transition: transform 0.3s, visibility 0s 0.3s;
-  transition: transform 0.3s, visibility 0s 0.3s;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  position: fixed;
-  z-index: 50;
-  right: 10px;
-  bottom: 10px;
-  background-color: white;
-  width: 90%;
-  max-width: 400px;
-  visibility: hidden;
-  overflow: hidden;
-}
-.floating-nav ul {
-  font-size: 1.2em;
-  margin: 0;
-}
-.floating-nav ul li {
-  border-bottom: 1px solid #eff2f6;
-}
-.floating-nav ul li a {
-  padding: 20px;
-  text-decoration: none;
-  color: #357ebd;
-  display: block;
-}
-.floating-nav ul li a:hover {
-  color: #1f496e;
-}
-.floating-nav ul li:last-child {
-  border-bottom: 0;
-}
-.floating-nav.is-visible {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: transform 0.3s, visibility 0s 0s;
-  -o-transition: transform 0.3s, visibility 0s 0s;
-  transition: transform 0.3s, visibility 0s 0s;
-  visibility: visible;
-}
-@media (max-width: 992px) {
-  .profile-card-wrapper {
-    position: relative;
-  }
-}
-.profile-pic {
-  padding: 20px 0;
-}
-@media (max-width: 992px) {
-  .profile-pic {
-    padding: 10px 0;
-  }
-}
-.profile-pic img {
-  width: 100px;
-  height: 100px;
-}
-@media (max-width: 992px) {
-  .name {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .contact-details {
-    text-align: center;
-  }
-}
-.contact-details .detail {
-  display: table;
-  padding: 10px 0;
-}
-.contact-details .detail .icon {
-  padding: 0 10px;
-  color: #707070;
-}
-@media (max-width: 992px) {
-  .contact-details .detail .icon {
-    padding: 0 5px 0 0;
-  }
-}
-.contact-details .detail .info {
-  font-size: 0.8em;
-}
-.contact-details .detail .icon,
-.contact-details .detail .info {
-  display: table-cell;
-  vertical-align: middle;
-}
-@media (max-width: 768px) {
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media (max-width: 992px) {
-  .contact-details .detail {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 10px;
-  }
-  .contact-details .detail .icon,
-  .contact-details .detail .info {
-    display: inline-block;
-  }
-}
-@media (max-width: 992px) and (min-width: 768px) {
-  .contact-details .detail {
-    float: left;
-    width: 25%;
-  }
-}
-
-
-
 
 
 .card-skills {
@@ -710,7 +509,7 @@ body {
 	position: relative;
 	width: 100%;
 	padding: 50px;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	background-color: #fff;
 	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);

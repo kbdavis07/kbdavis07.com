@@ -445,7 +445,8 @@ header p[itemprop="jobTitle"]
         padding-top: 4px;
         padding-bottom: 4px;
         padding-left:8px;
-        margin-left: 4px;
+        margin-left:-2px;
+        margin-right: 4px;
         margin-top: 5px;
         background-color: #324765;
     }
@@ -489,9 +490,9 @@ header p[itemprop="jobTitle"]
 main
 {
     background-color:#FFFFFF;
-    border:1px solid #8593B4;
-    border-top:1px solid #27344C;
+    border:0.2px solid #8593B4;
     margin-bottom:5px; 
+    margin-left:2%;
 }
 
 
@@ -502,8 +503,6 @@ article
   /*margin-left: -15px;
   padding-right:5px;*/
   /*border-left:17px solid #E3E4E5;*/
-
-  
 
 }
 
@@ -523,7 +522,7 @@ aside
     width:210px;
     height:100%;
     font-family:Segoe UI;
-    border:1px solid red;
+    
 }
 
 
@@ -551,8 +550,8 @@ aside .widget > header
     color:black;
     font-size:medium;
     margin-top:-1px; 
-    border:2px solid #FDF099; 
-    background-color:#FDF099;
+    border:2px solid #324765; 
+    background-color:#324765;
 
 }
 
@@ -612,7 +611,12 @@ footer  a:hover
   width:136px;*/
 }
 
+/*#screensize
+{
+    position:relative;
+    float:right;
 
+}*/
 
 
 

@@ -22,10 +22,10 @@ namespace KB.Controllers
 
         public ActionResult Resume()
         {
-            ViewBag.Title = "Asp.Net MVC C# Web Application Developer Resume";
+            ViewBag.Title = "Web Application Developer Resume";
             ViewBag.Keywords = "Asp.Net, MVC, C#, Web Application, Developer,Resume";
-            ViewBag.Description = "";
-            ViewBag.Subject = "";
+            ViewBag.Description = "Asp.Net MVC C# Web Application Developer Resume available for hire.";
+            ViewBag.Subject = "Developer Resume";
 
             return View();
         }
