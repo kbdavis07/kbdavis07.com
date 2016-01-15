@@ -10,12 +10,19 @@ namespace KB.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Title = "Brian Keith Davis";
+            ViewBag.Keywords = "Asp.Net, MVC, C#, Web Application, Developer";
+            ViewBag.Description = "Asp.Net MVC C# Web Application Developer available for hire.";
+            ViewBag.Subject = "";
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Title = "Web Application Developer Resume";
+            ViewBag.Keywords = "Asp.Net, MVC, C#, Web Application, Developer,Resume";
+            ViewBag.Description = "Asp.Net MVC C# Web Application Developer Resume available for hire.";
+            ViewBag.Subject = "Developer Resume";
 
             return View();
         }
