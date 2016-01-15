@@ -1,0 +1,4 @@
+﻿User-Agent: *
+Disallow: /account
+Disallow: /manage
+Allow: /

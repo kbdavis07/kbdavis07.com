@@ -200,6 +200,7 @@
     <Content Include="Content\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
+    <Content Include="google8c0106fce8660e95.html" />
     <Content Include="img\Desktop\desktop.png" />
     <Content Include="img\Desktop\taskbar.png" />
     <Content Include="img\Desktop\vs-edited.png" />
@@ -249,6 +250,8 @@
     <Content Include="img\VisualStudio\VS-3.png" />
     <Content Include="img\VisualStudio\VS-4.png" />
     <Content Include="img\VisualStudio\vs-head.PNG" />
+    <Content Include="robot.txt" />
+    <Content Include="sitemap.xml" />
     <Content Include="Themes\VS-1\css\Computer.css" />
     <Content Include="Themes\VS-1\css\Elegant.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
@@ -487,6 +490,7 @@
     <Content Include="Themes\VS-1\Widgets\_Widget-2.cshtml" />
     <Content Include="Themes\VS-1\Widgets\_ContactInfo.cshtml" />
     <Content Include="Views\Home\Meeting.cshtml" />
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
