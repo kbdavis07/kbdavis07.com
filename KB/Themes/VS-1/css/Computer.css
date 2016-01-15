@@ -86,8 +86,10 @@
     position: absolute;
     left: 99.7%;
     top: 60%;
-    margin: -70px 0 0 -120px;
+    margin: -70px 0 0 -17px;
     background: #B9BAC1;
+
+
     /*************************Animation****************************************************************/
     -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
     -moz-animation: mymove 5s infinite;
@@ -224,41 +226,41 @@
 
 @-webkit-keyframes mymove {
     from {
-        top: 40%;
+        top: 70%;
     }
 
     to {
-        top: 75%;
+        top: 100%;
     }
 }
 
 @keyframes mymove {
     from {
-        top: 60%;
+        top: 70%;
     }
 
     to {
-        top: 75%;
+        top: 100%;
     }
 }
 
 
 @-moz-keyframes mymove {
     from {
-        top: 60%;
+        top: 70%;
     }
 
     to {
-        top: 75%;
+        top: 100%;
     }
 }
 
 @keyframes mymove {
     from {
-        top: 60%;
+        top: 70%;
     }
 
     to {
-        top: 75%;
+        top: 100%;
     }
 }
