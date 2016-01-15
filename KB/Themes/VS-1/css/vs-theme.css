@@ -649,13 +649,14 @@ footer  a:hover
 	line-height:24px;
 	position:relative;
 	font-size:11px;
+    margin-bottom:10px;
 	}
 
 .tags a{
    
 	margin-left:20px;
     margin-top:-20px;
-	padding:0 12px 0 12px;
+    padding:0 12px 0 12px;
 	background:#0089e0;
 	color:#fff;
 	text-decoration:none;
