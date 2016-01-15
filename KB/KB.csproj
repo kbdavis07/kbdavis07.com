@@ -250,7 +250,7 @@
     <Content Include="img\VisualStudio\VS-3.png" />
     <Content Include="img\VisualStudio\VS-4.png" />
     <Content Include="img\VisualStudio\vs-head.PNG" />
-    <Content Include="robot.txt" />
+    <Content Include="robots.txt" />
     <Content Include="Scripts\app\statscounter.js" />
     <Content Include="sitemap.xml" />
     <Content Include="Themes\VS-1\css\Computer.css" />

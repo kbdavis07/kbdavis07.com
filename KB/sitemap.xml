@@ -1,1 +1,37 @@
-﻿
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://kbdavis07.com/</loc>
+  <priority>0.94</priority>
+</url>
+<url>
+  <loc>http://kbdavis07.com/Resume</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://kbdavis07.com/About</loc>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>http://kbdavis07.com/Projects</loc>
+  <priority>0.97</priority>
+</url>
+<url>
+  <loc>http://kbdavis07.com/Portfolio</loc>
+  <priority>0.96</priority>
+</url>
+<url>
+  <loc>http://kbdavis07.com/Hire</loc>
+  <priority>0.98</priority>
+</url>
+<url>
+  <loc>http://kbdavis07.com/Contact</loc>
+  <priority>0.99</priority>
+</url>
+</urlset>
