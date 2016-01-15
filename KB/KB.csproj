@@ -176,10 +176,6 @@
     <Compile Include="App_Start\Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\DefaultConnection.mdf" />
-    <Content Include="App_Data\DefaultConnection_log.ldf">
-      <DependentUpon>DefaultConnection.mdf</DependentUpon>
-    </Content>
     <Content Include="App_Data\kb.mdf" />
     <Content Include="App_Data\kb_log.ldf">
       <DependentUpon>kb.mdf</DependentUpon>
