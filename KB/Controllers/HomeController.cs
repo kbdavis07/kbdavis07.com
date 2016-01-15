@@ -59,6 +59,14 @@ namespace KB.Controllers
             return View();
         }
 
+        public ActionResult Meeting()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+
 
     }
 }

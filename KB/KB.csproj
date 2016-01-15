@@ -486,6 +486,7 @@
     <Content Include="Themes\VS-1\img\favicon\manifest.json" />
     <Content Include="Themes\VS-1\Widgets\_Widget-2.cshtml" />
     <Content Include="Themes\VS-1\Widgets\_ContactInfo.cshtml" />
+    <Content Include="Views\Home\Meeting.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
