@@ -14,7 +14,7 @@ namespace KB
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             //routes.IgnoreRoute("{file}.html");
 
-            routes.MapRoute("OnlyAction","{action}", new { controller = "Home", action = "Index" });
+            routes.MapRoute("OnlyAction","{action}", new { controller = "Home", action = "Resume" });
 
             routes.MapRoute(
                 name: "Default",

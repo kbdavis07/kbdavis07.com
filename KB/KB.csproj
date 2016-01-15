@@ -352,6 +352,7 @@
     <Content Include="Content\bootstrap\semantic-layout.less" />
     <Content Include="img\doc\453d2d304232098e5878d2e9582bfaab.ico.zip" />
     <Content Include="img\favicon\manifest.json" />
+    <None Include="Properties\PublishProfiles\kbdavis07.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery\jquery-2.1.4.min.js" />
