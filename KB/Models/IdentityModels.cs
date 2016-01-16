@@ -29,5 +29,7 @@ namespace KB.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<KB.Models.Contact> Messages { get; set; }
     }
 }

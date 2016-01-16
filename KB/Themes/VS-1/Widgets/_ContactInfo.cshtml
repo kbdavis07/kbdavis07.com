@@ -1,59 +1,144 @@
-﻿@section css{ <link href="~/Themes/VS-1/css/Elegant.css" rel="stylesheet" /> }
-
-<div class="panel panel-primary">
-    <div class="panel-heading">Contact Info</div>
+﻿<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">About Me</h3>
+    </div>
     <div class="panel-body">
-        
-        
+        <div itemscope itemtype="http://schema.org/Person">
 
-            <div class="detail" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                <span class="icon"><i class="icon fs-lg icon-location"></i></span>
-                <span class="info" itemprop="addressRegion">West Virginia, US</span>
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Contact Info
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+
+                            <div class="detail" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <span class="icon"><i class="icon fs-lg icon-location"></i></span>
+                                <span class="info" itemprop="addressRegion">West Virginia, US</span>
+                            </div>
+
+                            <div class="detail">
+                                <span class="icon"><i class="icon fs-lg icon-exercism"></i></span>
+                                <span itemprop="chat" class="info">
+                                    <a class="ChatLink" href="https://gitter.im/kbdavis07/resume" rel="tooltip" data-placement="right" title="Contact me on Gitter Live Chat">
+
+                                        Chat Now
+
+                                    </a>
+                                </span>
+                            </div>
+
+
+                            <div class="detail">
+                                <span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"> <a href="" itemprop="email" class="link-disguise"> Kbdavis07@yahoo.com</a> </span>
+                            </div>
+
+                            <div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span itemprop="telephone" class="info">(304) 506.3149</span></div>
+
+
+                            <div class="detail">
+                                <span class="icon"><i class="icon fs-lg icon-link"></i></span>
+                                <span class="info"><a href="http://Kbdavis07.com" target="_blank" itemprop="url">http://Kbdavis07.com</a></span>
+                            </div>
+
+
+
+                            <div class="detail">
+                                <span title="Languages I speak" class="icon"><i class="icon fs-lg icon-language"></i></span>
+                                <span class="info">English</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
-            <div class="detail">
-                <span class="icon"><i class="icon fs-lg icon-exercism"></i></span>
-                <span itemprop="chat" class="info">
-                    <a class="ChatLink" href="https://gitter.im/kbdavis07/resume" rel="tooltip" data-placement="right" title="Contact me on Gitter Live Chat">
-                        <!--<img class="ChatImg" src="https://badges.gitter.im/Join%20Chat.svg">  </img> -->
-                        Chat Now
 
-                    </a>
-                </span>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Mailing Address
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+
+                        <address>
+                            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <div>
+                                    P.O. Box: <span itemprop="postOfficeBoxNumber">169</span>
+                                    <div>
+                                        <span itemprop="addressLocality">Shenandoah Junction</span>, <span itemprop="addressRegion">WV</span>
+                                    </div>
+                                    <div itemprop="postalCode">25442</div>
+                                    <div itemprop="addressCountry">USA</div>
+                                </div>
+                            </div>
+                        </address>
+
+                    </div>
+                </div>
             </div>
 
 
-            <div class="detail">
-                <span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"> <a href="" itemprop="email" class="link-disguise"> Kbdavis07@yahoo.com</a> </span>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Bio Info
+                        </a>
+                    </h4>
+                </div>
+
+
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        <div>
+                            <meta itemprop="gender" content="male" /><b>Gender:</b> Male <br />
+                            <meta itemprop="nationality" content="Americian"> <b>Nationality:</b> Americian <br />
+                            <meta itemprop="birthDate" content="1981-01-28" /><b>Birth Date:</b>01/28/1981 <br />
+                            <meta itemprop="birthPlace" content="Houston,Texas" /> <b>Birth Place:</b> Houston,Texas
+
+                            <meta itemprop="owns" content="BloggersOnline.Com" url="http://BloggersOnline.com" />
+                            <meta itemprop="brand" content="BloggersOnline.Com" url="http://BloggersOnline.com" />
+                            <meta itemprop="naics" content="541511" url="http://www.census.gov/cgi-bin/sssd/naics/naicsrch?code=541511&search=2012%20NAICS%20Search" />
+                            <meta itemprop="offers" content="Web Development,Design,Hosting" />
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span itemprop="telephone" class="info">(304) 506.3149</span></div>
-
-
-            <div class="detail">
-                <span class="icon"><i class="icon fs-lg icon-link"></i></span>
-                <span class="info"><a href="http://Kbdavis07.com" target="_blank" itemprop="url">http://Kbdavis07.com</a></span>
-            </div>
-
-
-
-            <div class="detail">
-                <span title="Languages I speak" class="icon"><i class="icon fs-lg icon-language"></i></span>
-                <span class="info">English</span>
-            </div>
+        </div>
+    </div>
 </div>
-    
-</div>
+
+
+
+
 
 
 <script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: 'kbdavis07/resume',
-	activationElement: '.ChatLink'
-    //targetElement: '.profile-card-wrapper' 
-  };
+    ((window.gitter = {}).chat = {}).options = {
+        room: 'kbdavis07/resume',
+        activationElement: '.ChatLink'
+        //targetElement: '.profile-card-wrapper'
+    };
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+
+
 
 
 

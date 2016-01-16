@@ -1,11 +1,6 @@
 ﻿
-@section sidebar2 { @Html.Partial("~/Themes/VS-1/Widgets/_ContactInfo.cshtml")}
 
-
-@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
+<h2>@ViewBag.Title</h2>
 
 
 
@@ -15,24 +10,36 @@
     </a>
     <div itemprop="jobtitle">Asp.Net MVC C# Web Application Developer</div>
 
-    <br/>
+    <br />
+
+    <div itemprop="email">kbdavis07@yahoo.com</div>
+    <div itemprop="telephone">304.506.3149</div>
 
     <address>
         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <div>P.O. Box: <span itemprop="postOfficeBoxNumber">169</div>
-            <div><span itemprop="addressLocality">Shenandoah Junction</span>, <span itemprop="addressRegion">WV</span></div>
-            <div itemprop="postalCode">25442</div>
-            <div itemprop="addressCountry">USA</div>
+            <div>
+                P.O. Box: <span itemprop="postOfficeBoxNumber">169</span>
+                <div>
+                    <span itemprop="addressLocality">Shenandoah Junction</span>, <span itemprop="addressRegion">WV</span>
+                </div>
+                <div itemprop="postalCode">25442</div>
+                <div itemprop="addressCountry">USA</div>
+            </div>
         </div>
-   </address>
+    </address>
 
-    
 
-        <div itemprop="email">kbdavis07@yahoo.com</div>
-        <div itemprop="telephone">3045063149</div>
-        <div>
-            <meta itemprop="birthDate" content="1981-01-28">DOB: 01/28/1981
-        </div>
+
+   
+
+    @*Bio Info*@
+
+    <div>
+        <meta itemprop="gender" content="male" /> Male
+        <meta itemprop="nationality" content="Americian"> Americian
+        <meta itemprop="birthDate" content="1981-01-28" />01/28/1981
+        <meta itemprop="birthPlace" content="Houston,Texas" /> Houston,Texas
+    </div>
 </div>
 
 
