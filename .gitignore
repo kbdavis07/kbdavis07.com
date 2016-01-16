@@ -160,6 +160,7 @@ ClientBin/
 *.publishsettings
 *.pubxml
 node_modules/
+web.config
 
 # RIA/Silverlight projects
 Generated_Code/
