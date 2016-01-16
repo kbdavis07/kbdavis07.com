@@ -13,6 +13,7 @@ namespace KB.Models
 
         [Required]
         [DataType(DataType.DateTime)]
+        [Display(Name = "Date")]
         public DateTime ContactDate { get; set; }
 
         [Required]

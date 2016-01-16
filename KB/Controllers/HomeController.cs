@@ -59,9 +59,9 @@ namespace KB.Controllers
         }
 
         
-        public ActionResult Contact()
+        public ActionResult Success()
         {
-            ViewBag.Message = "Your contact page.";
+           
 
             return View();
         }
