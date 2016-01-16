@@ -15,12 +15,14 @@ namespace KB.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Contact
+        [Authorize(Users = "kbdavis07")]
         public ActionResult Index()
         {
             return View(db.Messages.ToList());
         }
 
         // GET: Contact/Details/5
+        [Authorize(Users ="kbdavis07")]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -71,13 +73,14 @@ namespace KB.Controllers
             {
                 db.Messages.Add(contact);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Home","Contact");
             }
 
             return View(contact);
         }
 
         // GET: Contact/Edit/5
+        [Authorize(Users = "kbdavis07")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -97,6 +100,7 @@ namespace KB.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Users = "kbdavis07")]
         public ActionResult Edit([Bind(Include = "MessageId,ContactDate,FirstName,LastName,Email,Topic,Subject,Message")] Contact contact)
         {
             if (ModelState.IsValid)
@@ -109,6 +113,7 @@ namespace KB.Controllers
         }
 
         // GET: Contact/Delete/5
+        [Authorize(Users = "kbdavis07")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -124,6 +129,7 @@ namespace KB.Controllers
         }
 
         // POST: Contact/Delete/5
+        [Authorize(Users = "kbdavis07")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
