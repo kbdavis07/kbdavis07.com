@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using KB.Models;
+using System;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using KB.Models;
 
 namespace KB.Controllers
 {
@@ -15,14 +12,14 @@ namespace KB.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Contact
-        [Authorize(Users = "kbdavis07")]
+        [Authorize(Users = "kbdavis07@yahoo.com")]
         public ActionResult Index()
         {
             return View(db.Messages.ToList());
         }
 
         // GET: Contact/Details/5
-        [Authorize(Users ="kbdavis07")]
+        [Authorize(Users = "kbdavis07@yahoo.com")]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -60,10 +57,7 @@ namespace KB.Controllers
             ViewBag.Keywords = "Asp.Net, MVC, C#, Web Application, Developer,Contact";
             ViewBag.Description = "Asp.Net MVC C# Web Application Developer available for hire.";
             ViewBag.Subject = "Contact Me | Brian Keith Davis | Web Application Developer";
-
-
-
-
+            
             DateTime Now = DateTime.Now;
 
             contact.ContactDate = Now;
@@ -73,14 +67,14 @@ namespace KB.Controllers
             {
                 db.Messages.Add(contact);
                 db.SaveChanges();
-                return RedirectToAction("Home","Contact");
+                return RedirectToAction("Success", "Home");
             }
 
             return View(contact);
         }
 
         // GET: Contact/Edit/5
-        [Authorize(Users = "kbdavis07")]
+        [Authorize(Users = "kbdavis07@yahoo.com")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -100,7 +94,7 @@ namespace KB.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Users = "kbdavis07")]
+        [Authorize(Users = "kbdavis07@yahoo.com")]
         public ActionResult Edit([Bind(Include = "MessageId,ContactDate,FirstName,LastName,Email,Topic,Subject,Message")] Contact contact)
         {
             if (ModelState.IsValid)
@@ -113,7 +107,7 @@ namespace KB.Controllers
         }
 
         // GET: Contact/Delete/5
-        [Authorize(Users = "kbdavis07")]
+        [Authorize(Users = "kbdavis07@yahoo.com")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -129,7 +123,7 @@ namespace KB.Controllers
         }
 
         // POST: Contact/Delete/5
-        [Authorize(Users = "kbdavis07")]
+        [Authorize(Users = "kbdavis07@yahoo.com")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
